@@ -1,0 +1,92 @@
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0 auto 20px;
+  width: 60%;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(87, 90, 88);
+  height: 40px;
+  width: 100%;
+  font-size: 1em;
+}
+
+.home:hover {
+  font-size: x-large;
+}
+
+.recipes:hover {
+  font-size: x-large;
+}
+
+.tutorials:hover {
+  font-size: x-large;
+}
+
+.subscribe:hover {
+  font-size: x-large;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  text-align: justify;
+}
+
+.plants {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#noodles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ingredients {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  color: rgb(104, 104, 104);
+}
+
+.ingredients h2 {
+  color: black;
+}
+
+#comment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#videos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.trololo {
+  text-align: right;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
